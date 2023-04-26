@@ -1,0 +1,93 @@
+:root {
+  --black: 0 0 0;
+  --white: 255 255 255;
+  --grey: 178 170 187;
+  --dark-grey: 96 96 97;
+  --light-grey: 205 205 205;
+  --blue: 82 132 199;
+  --dark-blue: 57 90 131;
+  --light-blue: 137 165 229;
+}
+* {
+  background-color: #e7f0fa;
+}
+
+.poliwrath {
+        width: 1px;
+        height: 1px;
+        transform: scale(8);
+        background: transparent;
+        position: relative;
+        box-shadow:
+          10px 50px rgb(var(--black)),
+          10px 51px rgb(var(--black)),
+          10px 52px rgb(var(--black)),
+          10px 53px rgb(var(--black)),
+          10px 54px rgb(var(--black)),
+          11px 49px rgb(var(--black)),
+          11px 48px rgb(var(--black)),
+          11px 47px rgb(var(--black)),
+          11px 46px rgb(var(--dark-grey)),
+          12px 46px rgb(var(--grey)),
+          12px 45px rgb(var(--dark-grey)),
+          12px 44px rgb(var(--dark-grey)),
+          13px 44px rgb(var(--grey)),
+          13px 43px rgb(var(--dark-grey)),
+          14px 43px rgb(var(--dark-grey)),
+          15px 43px rgb(var(--grey)),
+          15px 42px rgb(var(--dark-grey)),
+          16px 42px rgb(var(--dark-grey)),
+          17px 42px rgb(var(--dark-grey)),
+          18px 42px rgb(var(--grey)),
+          18px 41px rgb(var(--dark-grey)),
+          19px 41px rgb(var(--dark-grey)),
+          20px 41px rgb(var(--dark-grey)),
+          21px 41px rgb(var(--dark-grey)),
+          22px 42px rgb(var(--dark-grey)),
+          23px 42px rgb(var(--dark-grey)),
+          24px 43px rgb(var(--black)),
+          24px 44px rgb(var(--black)),
+          25px 45px rgb(var(--black)),
+          25px 46px rgb(var(--black)),
+          25px 47px rgb(var(--black)),
+          25px 48px rgb(var(--black)),
+          25px 49px rgb(var(--black)),
+          26px 47px rgb(var(--black)),
+          26px 50px rgb(var(--black)),
+          26px 51px rgb(var(--black)),
+          26px 52px rgb(var(--black)),
+          26px 53px rgb(var(--black)),
+          25px 54px rgb(var(--black)),
+          24px 55px rgb(var(--black)),
+          23px 56px rgb(var(--dark-blue)),
+          22px 56px rgb(var(--black)),
+          21px 56px rgb(var(--black)),
+          20px 56px rgb(var(--black)),
+          19px 57px rgb(var(--black)),
+          18px 57px rgb(var(--black)),
+          17px 58px rgb(var(--black)),
+          16px 58px rgb(var(--black)),
+          15px 58px rgb(var(--black)),
+          14px 58px rgb(var(--black)),
+          13px 58px rgb(var(--black)),
+          12px 57px rgb(var(--black)),
+          11px 56px rgb(var(--black)),
+          11px 55px rgb(var(--black)),
+          24px 50px rgb(var(--black)),
+          23px 51px rgb(var(--black)),
+          22px 51px rgb(var(--black)),
+          21px 51px rgb(var(--black)),
+          22px 52px rgb(var(--black)),
+          22px 53px rgb(var(--black)),
+          21px 54px rgb(var(--black)),
+          20px 55px rgb(var(--black)),
+          19px 55px rgb(var(--black)),
+          18px 55px rgb(var(--black)),
+          17px 55px rgb(var(--black)),
+          20px 50px rgb(var(--black)),
+          19px 50px rgb(var(--black)),
+          18px 49px rgb(var(--black)),
+          17px 48px rgb(var(--black)),
+          16px 47px rgb(var(--black)),
+          16px 46px rgb(var(--grey))
+    }
