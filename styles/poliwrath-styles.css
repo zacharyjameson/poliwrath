@@ -1,0 +1,95 @@
+:root {
+  --black: 0 0 0;
+  --white: 255 255 255;
+  --grey: 178 170 187;
+  --dark-grey: 96 96 97;
+  --light-grey: 205 205 205;
+  --blue: #0057a8;
+  --dark-blue: 57 90 131;
+  --light-blue: 137 165 229;
+}
+
+* {
+  background-color: rgb(198, 228, 255);
+}
+
+.poliwrath {
+  width: 1px;
+  height: 1px;
+  transform: scale(12);
+  background: transparent;
+  position: relative;
+  box-shadow:
+  /* left hand outline */
+    5px 25px rgb(var(--black)),
+    5px 26px rgb(var(--black)),
+    5px 27px rgb(var(--black)),
+    6px 27px rgb(var(--black)),
+    7px 26px rgb(var(--black)),
+    6px 28px rgb(var(--black)),
+    6px 29px rgb(var(--black)),
+    7px 29px rgb(var(--black)),
+    8px 28px rgb(var(--black)),
+    9px 28px rgb(var(--black)),
+    9px 27px rgb(var(--black)),
+    10px 29px rgb(var(--black)),
+    11px 29px rgb(var(--black)),
+    11px 28px rgb(var(--black)),
+    12px 28px rgb(var(--black)),
+    12px 27px rgb(var(--black)),
+    12px 26px rgb(var(--black)),
+    12px 25px rgb(var(--black)),
+    11px 25px rgb(var(--black)),
+    11px 24px rgb(var(--black)),
+    10px 23px rgb(var(--black)),
+    9px 22px rgb(var(--black)),
+    8px 22px rgb(var(--black)),
+    7px 23px rgb(var(--black)),
+    6px 23px rgb(var(--black)),
+    5px 24px rgb(var(--black)),
+    6px 24px rgb(var(--black)),
+    /* left hand fill */
+    6px 25px rgb(var(--white)),
+    7px 25px rgb(var(--white)),
+    8px 25px rgb(var(--white)),
+    9px 25px rgb(var(--white)),
+    10px 25px rgb(var(--white)),
+    6px 26px rgb(var(--white)),
+    8px 26px rgb(var(--white)),
+    9px 26px rgb(var(--white)),
+    10px 26px rgb(var(--white)),
+    11px 26px rgb(var(--white)),
+    7px 27px rgb(var(--white)),
+    8px 27px rgb(var(--white)),
+    10px 27px rgb(var(--white)),
+    11px 27px rgb(var(--white)),
+    7px 28px rgb(var(--white)),
+    10px 28px rgb(var(--white)),
+    7px 24px rgb(var(--white)),
+    8px 24px rgb(var(--white)),
+    9px 24px rgb(var(--white)),
+    10px 24px rgb(var(--white)),
+    8px 23px rgb(var(--white)),
+    9px 23px rgb(var(--white)),
+
+    /* left arm */
+    10px 21px rgb(var(--black)),
+    11px 20px rgb(var(--black)),
+    12px 20px rgb(var(--black)),
+    13px 24px rgb(var(--black)),
+    13px 23px rgb(var(--black)),
+    14px 23px rgb(var(--black)),
+
+    /* left arm fill */
+    11px 21px var(--blue),
+    12px 21px var(--blue),
+    13px 21px var(--blue),
+    10px 22px var(--blue),
+    11px 22px var(--blue),
+    12px 22px var(--blue),
+    13px 22px var(--blue),
+    14px 22px var(--blue),
+    11px 23px var(--blue),
+    12px 23px var(--blue),
+    12px 24px var(--blue)
+}
