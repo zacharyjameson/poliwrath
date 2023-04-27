@@ -9,12 +9,86 @@
   --light-blue: 137 165 229;
 }
 * {
-  background-color: #e7f0fa;
+  margin: 0;
+  padding: 0;
 }
 
-.poliwrath {
-        width: 1px;
-        height: 1px;
+body {
+  background: #56b7d7;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* head */
+.poliwrath-body {
+  position: relative;
+  background: radial-gradient(circle at top, rgb(var(--blue)) 35%, rgb(var(--dark-blue)) 99%);
+  height: 30vmin;
+  width: 32vmin;
+  border-radius: 55% 55% 60% 60% / 65% 65% 60% 60%;
+  display: flex;
+  margin-top: 1vmin;
+}
+
+/* stomach curve */
+.poliwrath-body::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: solid 5px #000;
+  border-color: #000 transparent transparent transparent;
+  border-radius: 80%/50px 50px 0 0;
+  display: flex;
+  top: -2vmin;
+  left: 11vmin;
+  transform: rotate(180deg);
+}
+
+/* stomach base */
+.poliwrath-body::before {
+  content: '';
+  position: absolute;
+  background: radial-gradient(circle at top, rgb(var(--white)) 35%, rgb(var(--dark-blue)) 99%);
+  height: 20vmin;
+  width: 22vmin;
+  border-radius: 55% 55% 60% 60% / 65% 65% 60% 60%;
+  top: 6.2vmin;
+  left: 5.1vmin;
+}
+/* left eye */
+.poliwrath-left-eye {
+  content: '';
+  position: relative;
+  background: rgb(var(--blue));
+  height: 8vmin;
+  width: 9vmin;
+  border-radius: 80% 80% 80% 80% / 80% 80% 80% 80%;
+  transform: rotate(-25deg);
+  top: 17vmin;
+  left: -8vmin
+}
+
+/* right eye */
+.poliwrath-right-eye {
+  content: '';
+  position: relative;
+  background: rgb(var(--blue));
+  height: 8vmin;
+  width: 9vmin;
+  border-radius: 80% 80% 80% 80% / 80% 80% 80% 80%;
+  transform: rotate(25deg);
+  top: 9vmin;
+  left: 8vmin
+}
+
+/* .poliwrath {
+        width: 20vmin;
+        height: 27vmin;
         transform: scale(8);
         background: transparent;
         position: relative;
@@ -73,6 +147,11 @@
           12px 57px rgb(var(--black)),
           11px 56px rgb(var(--black)),
           11px 55px rgb(var(--black)),
+          16px 54px rgb(var(--black)),
+          15px 54px rgb(var(--black)),
+          14px 53px rgb(var(--black)),
+          13px 52px rgb(var(--grey)),
+          13px 51px rgb(var(--grey)),
           24px 50px rgb(var(--black)),
           23px 51px rgb(var(--black)),
           22px 51px rgb(var(--black)),
@@ -90,4 +169,4 @@
           17px 48px rgb(var(--black)),
           16px 47px rgb(var(--black)),
           16px 46px rgb(var(--grey))
-    }
+    } */
