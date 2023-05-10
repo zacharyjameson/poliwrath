@@ -364,7 +364,7 @@
     29px 24px var(--white),
     28px 23px var(--white),
     27px 23px var(--white);
-  animation: breathe 2s infinite;
+  animation: breathe 1.3s infinite;
 }
 
 @keyframes breathe {
@@ -414,7 +414,7 @@
       11px 29px var(--black),
       11px 30px var(--black),
       12px 29px var(--black),
-      13px 29px var(--black),
+      13px 29.3px var(--black),
       10px 31px var(--black),
       10px 32px var(--black),
       11px 32px var(--black),
