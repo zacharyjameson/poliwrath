@@ -1,3 +1,3 @@
-# Poliwrath
+# Poliwrath (Pure CSS)
 
-<img src="images/poliwrath-shot.png"/>
+![Poliwrath Animated](./images/poliwrath.gif)
